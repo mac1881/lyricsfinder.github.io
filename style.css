@@ -292,7 +292,7 @@ footer .right p{
 }
 
 #lyrics-result {
-    max-height: 405px;        
+    max-height: 390px;        
     overflow-y: auto;        
     overflow-x: hidden;       
     white-space: pre-wrap;
