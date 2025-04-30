@@ -292,14 +292,14 @@ footer .right p{
 }
 
 #lyrics-result {
-    max-height: 390px;        
+    max-height: 350px;        
     overflow-y: auto;        
     overflow-x: hidden;       
     white-space: pre-wrap;
     background-color: rgb(228, 215, 215);
     padding: 20px;
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     color: #363131;
