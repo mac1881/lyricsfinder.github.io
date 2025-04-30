@@ -23,4 +23,5 @@ async function getLyrics() {
         resultDiv.textContent = "Error fetching lyrics.";
         console.error(error);
     }
+    
 }
