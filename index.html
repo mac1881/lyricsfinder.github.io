@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       
+    <nav class="menu">
+        <div class="logo">
+            <a href="#" class="logo">Lyrics Founder</a>
+        </div>
+    </nav>
+ 
+    <div class="auth-links">
+        <a href="#" class="help">Help</a>
+    </div>
+</header>
+
+
+<section class="hero">
+        <section class="lyrics-search">
+            <div class="content">
+            <h1>Best Way To Find Your Lyrics</h1>
+            </div>
+            <h2>Find Lyrics</h2>
+            <div class="form">
+                <input type="text" id="artist" placeholder="Artist Name">
+                <input type="text" id="song" placeholder="Song Title">
+                <button onclick="getLyrics()">Get Lyrics</button>
+            </div>
+            <div id="lyrics-result"></div>
+        </section>
+    </section>
+</section>
+    </header>
+    <footer>
+        <h3>Find The Lyrics Like the Music</h3>
+        <div class="right">
+            <div class="links">
+                <a href="#">About</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="social">
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-facebook-square'></i>
+            </div>
+            <p>2025 All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="lyricsapi.js"></script>
+</body>
+</html>
